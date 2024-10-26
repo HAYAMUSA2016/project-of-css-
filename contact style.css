@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --maincolor: #06bbcc;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*navbar*/
+h1 {
+  padding-left: 10px;
+  color: rgb(51, 215, 215);
+  padding-top: 20px;
+}
+.navbar {
+  width: 100%;
+  height: 75px;
+  
+  display: flex;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  position: fixed;
+  top: 0;
+  z-index: 1000px;
+  background-color: white;
+
+}
+.fas {
+  color: var(--maincolor);
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+a {
+  padding-top: 50px;
+  color: black;
+  text-decoration: none;
+}
+.home {
+  padding-top: 30px;
+  padding-left: 650px;
+
+  justify-content: space-around;
+  word-spacing: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--maincolor);
+}
+.join {
+  padding: 27px 30px;
+  background-color: var(--maincolor);
+  color: white;
+}
+.join:hover {
+  color: white;
+}
+/*end navbar*/
+
+/*banner*/
+
+.banner {
+  color: white;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 55, 0.7), rgba(0, 0, 55, 0.7)),
+    url(./carousel-1.jpg) center/cover fixed no-repeat;
+line-height: 70px;
+text-align: center;
+  }
+.banner h1 {
+  color: white;
+  padding-top: 150px;
+}
+.banner h3 {
+  color: var(--maincolor);
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.banner h1 {
+  padding-top: 175px;
+  padding-left: 100px;
+  font-size: 70px;
+  color: white;
+}
+
+/*end banner*/
+/*CONTACT*/
+.contact {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.get {
+  margin-top: 50px;
+  line-height: 30px;
+}
+.cate {
+  margin-top: 100px;
+}
+.cate h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.cate h5 {
+  text-align: center;
+  color: var(--maincolor);
+  font-size: 20px;
+}
+
+a {
+  color: var(--maincolor);
+}
+#fas1 {
+  color: white;
+  padding: 20px 20px;
+  background-color: var(--maincolor);
+
+  margin-top: 5px;
+}
+.map {
+  margin-top: 50px;
+  height: 300px;
+}
+.address h3 {
+  margin-left: 70px;
+  margin-top: -55px;
+  color: var(--maincolor);
+}
+.address p {
+  margin-left: 70px;
+}
+.address {
+  margin-top: 30px;
+}
+.form1 {
+  height: 300px;
+  margin-top: 50px;
+}
+.form-control {
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.button1 {
+  height: 50px;
+  width: 400px;
+  background-color: var(--maincolor);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.form-control1 {
+  width: 400px;
+  height: 100px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.form-control1:hover {
+  border: #06bbcc 5px solid;
+}
+.form-control:hover {
+  border: 5px solid var(--maincolor);
+}
+/*end contact*/
+
+/*footer*/
+
+.footer {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  background-color: #181d38;
+  padding-left: 60px;
+  padding-right: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.5px solid black;
+}
+
+.quick {
+  line-height: 30px;
+
+  padding-top: 100px;
+}
+
+.quick a {
+  color: white;
+}
+
+.contact1 {
+  padding-top: 100px;
+}
+
+.iconlar .fab {
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: #181d38;
+}
+.iconlar {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.iconlar .fab:hover {
+  color: var(--maincolor);
+  background-color: white;
+}
+.gallery {
+  padding-top: 100px;
+  justify-content: space-around;
+}
+.gallery1 {
+  height: 110px;
+  width: 320px;
+  display: flex;
+
+  justify-content: space-around;
+}
+.gallery2 {
+  height: 110px;
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+}
+.news {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.form11 {
+  height: 50px;
+  width: 300px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.button2 {
+  color: white;
+  padding: 10px 10px;
+  background-color: var(--maincolor);
+  margin-top: -100px;
+  margin-left: -80px;
+  border: #f0fbfc;
+}
+
+/*end footer*/
+/*NAV BOTTOOM*/
+
+.bottom {
+  height: 100px;
+  width: 100%;
+  background-color: #181d38;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.html a {
+  color: white;
+  text-decoration: underline;
+}
+.bottom a {
+  color: white;
+}
+.nav1 {
+  word-spacing: 20px;
+}
+
+/*END NAV BOTTOM*/
